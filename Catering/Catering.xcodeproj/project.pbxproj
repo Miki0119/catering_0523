@@ -15,6 +15,8 @@
 		1B22B1D2240E8F6D00A7FEE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B22B1D0240E8F6D00A7FEE3 /* LaunchScreen.storyboard */; };
 		1B30A4D024125729006816DC /* RestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30A4CE24125729006816DC /* RestaurantsTableViewCell.swift */; };
 		1B30A4D124125729006816DC /* RestaurantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B30A4CF24125729006816DC /* RestaurantsTableViewCell.xib */; };
+		1B45F11B24408A0100CB749B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B45F11924408A0100CB749B /* CollectionViewCell.swift */; };
+		1B45F11C24408A0100CB749B /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B45F11A24408A0100CB749B /* CollectionViewCell.xib */; };
 		1BC5FA8F241106010015AFDE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC5FA8E241106010015AFDE /* SearchViewController.swift */; };
 		1BC5FA9324112B9E0015AFDE /* restaurantslistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC5FA9224112B9E0015AFDE /* restaurantslistViewController.swift */; };
 		1BDFA6A9240FD763002B8B2B /* StartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFA6A8240FD763002B8B2B /* StartPageViewController.swift */; };
@@ -36,6 +38,8 @@
 		1B22B1D3240E8F6D00A7FEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B30A4CE24125729006816DC /* RestaurantsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsTableViewCell.swift; sourceTree = "<group>"; };
 		1B30A4CF24125729006816DC /* RestaurantsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantsTableViewCell.xib; sourceTree = "<group>"; };
+		1B45F11924408A0100CB749B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1B45F11A24408A0100CB749B /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		1BC5FA8E241106010015AFDE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		1BC5FA9224112B9E0015AFDE /* restaurantslistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantslistViewController.swift; sourceTree = "<group>"; };
 		1BDFA6A8240FD763002B8B2B /* StartPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 				1BC5FA9224112B9E0015AFDE /* restaurantslistViewController.swift */,
 				1B30A4CE24125729006816DC /* RestaurantsTableViewCell.swift */,
 				1B30A4CF24125729006816DC /* RestaurantsTableViewCell.xib */,
+				1B45F11924408A0100CB749B /* CollectionViewCell.swift */,
+				1B45F11A24408A0100CB749B /* CollectionViewCell.xib */,
 			);
 			path = Catering;
 			sourceTree = "<group>";
@@ -157,6 +163,7 @@
 			files = (
 				1B22B1D2240E8F6D00A7FEE3 /* LaunchScreen.storyboard in Resources */,
 				1BDFA6AD240FDABA002B8B2B /* TableViewCell.xib in Resources */,
+				1B45F11C24408A0100CB749B /* CollectionViewCell.xib in Resources */,
 				1B30A4D124125729006816DC /* RestaurantsTableViewCell.xib in Resources */,
 				1B22B1CF240E8F6D00A7FEE3 /* Assets.xcassets in Resources */,
 				1B22B1CD240E8F6C00A7FEE3 /* Main.storyboard in Resources */,
@@ -172,6 +179,7 @@
 			files = (
 				1BDFA6AF240FDD5D002B8B2B /* WelcomeBackViewController.swift in Sources */,
 				1BDFA6AC240FDABA002B8B2B /* TableViewCell.swift in Sources */,
+				1B45F11B24408A0100CB749B /* CollectionViewCell.swift in Sources */,
 				1B30A4D024125729006816DC /* RestaurantsTableViewCell.swift in Sources */,
 				1B22B1CA240E8F6C00A7FEE3 /* ViewController.swift in Sources */,
 				1BC5FA8F241106010015AFDE /* SearchViewController.swift in Sources */,
