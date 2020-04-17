@@ -209,7 +209,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3YX-I9-uC4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1413.75" y="-736.26760563380287"/>
+            <point key="canvasLocation" x="1414" y="-1885"/>
+        </scene>
+        <!--Timeline-->
+        <scene sceneID="dMd-t9-JaL">
+            <objects>
+                <viewController title="Timeline" id="Hlk-dG-Ha2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fxD-1Z-ymr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fkD-4K-OAa"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="tO4-ld-4Hd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eWE-ig-l5a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1414" y="-991"/>
         </scene>
         <!--Restaurantslist View Controller-->
         <scene sceneID="RFL-Te-20i">
@@ -248,7 +264,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yCK-9C-WI7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2587.5" y="-1334.1549295774648"/>
+            <point key="canvasLocation" x="2303" y="-1886"/>
         </scene>
         <!--Confirm view-->
         <scene sceneID="ePe-WX-rIa">
@@ -315,7 +331,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cNo-mY-N2u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1295.625" y="544.0140845070423"/>
+            <point key="canvasLocation" x="2378" y="667"/>
         </scene>
         <!--Add rate-->
         <scene sceneID="slw-ku-IVC">
@@ -507,7 +523,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FQs-4h-PGO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2613.75" y="320.07042253521126"/>
+            <point key="canvasLocation" x="1414" y="-112"/>
         </scene>
         <!--Cabin Attendant comments-->
         <scene sceneID="ET9-ba-gdL">
@@ -548,7 +564,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cmj-xg-cqt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2587.5" y="-500.7042253521127"/>
+            <point key="canvasLocation" x="3038" y="-1886"/>
         </scene>
         <!--Create New Account View Controller-->
         <scene sceneID="g1K-f2-LSr">
@@ -994,7 +1010,7 @@
                                 <rect key="frame" x="26" y="52" width="268" height="427"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">Personal Information we may collect " Personal information " is information that identifies you as individual, such as : name, nickname, profile picture, email address, nationality, base, company, current contract, airline experience, language, looking for a job . In some cases, we may use a third party service to analyse and improve aviatio service or to recruit flight attendants through the sites. In these cases, your personal information maybe collected by this third party and not by us, will be subjected to the third party's privacy policy rather than this privacy policy. We have no control over, and not responsible for , this party's use or disclosure of your personal information. To the extent permitted by appricable law, the Personal Information you provide through the App may be combined with Personal Information and other Information that you provide to us(via online or offline mreans) , that is publicly available, or that we may otherwise obtain online or offline, including, for example, from providers of demographic and other information, social media platforms and other third parties.  Cross border transfer-Your personal information may be stored in any country where we have facilities or service providers, and by using our App you consent to the transfer of information to our countries outside of your country of residence, including the US which may provide different data protection rules than in your counry.</mutableString>
+                                <string key="text">Personal Information we may collect " Personal information " is information that identifies you as individual, such as : name, nickname, profile picture, email address, nationality, base, company, current contract, airline experience, language, looking for a job . In some cases, we may use a third party service to analyse and improve aviatio service or to recruit flight attendants through the sites. In these cases, your personal information maybe collected by this third party and not by us, will be subjected to the third party's privacy policy rather than this privacy policy. We have no control over, and not responsible for , this party's use or disclosure of your personal information. To the extent permitted by appricable law, the Personal Information you provide through the App may be combined with Personal Information and other Information that you provide to us(via online or offline mreans) , that is publicly available, or that we may otherwise obtain online or offline, including, for example, from providers of demographic and other information, social media platforms and other third parties.  Cross border transfer-Your personal information may be stored in any country where we have facilities or service providers, and by using our App you consent to the transfer of information to our countries outside of your country of residence, including the US which may provide different data protection rules than in your counry.</string>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1164,7 +1180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iqe-Fn-HT7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="519.375" y="545.07042253521126"/>
+            <point key="canvasLocation" x="1414" y="798"/>
         </scene>
         <!--Contact-->
         <scene sceneID="xZ0-HH-v9Z">
@@ -1260,7 +1276,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1gm-uC-s0J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="508.125" y="1249.6478873239437"/>
+            <point key="canvasLocation" x="2379" y="1407"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7Rt-ls-xEc">
@@ -1276,6 +1292,7 @@
                         <segue destination="6lF-9a-eBm" kind="relationship" relationship="viewControllers" id="DBm-ng-eHr"/>
                         <segue destination="R8p-Qd-mhx" kind="relationship" relationship="viewControllers" id="n73-UY-Fti"/>
                         <segue destination="6Oi-L8-jbA" kind="relationship" relationship="viewControllers" id="feE-RQ-Zlz"/>
+                        <segue destination="Hlk-dG-Ha2" kind="relationship" relationship="viewControllers" id="tbZ-QC-P5Y"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="59P-R6-OVB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1416,7 +1433,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8GP-ht-8mk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1413.75" y="-1396.4788732394366"/>
+            <point key="canvasLocation" x="1414" y="-2745"/>
         </scene>
         <!--Welcome Back-->
         <scene sceneID="hNX-B9-2QG">
