@@ -265,7 +265,7 @@
             </objects>
             <point key="canvasLocation" x="1416" y="-68"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Rate-->
         <scene sceneID="slw-ku-IVC">
             <objects>
                 <viewController id="R8p-Qd-mhx" sceneMemberID="viewController">
@@ -295,7 +295,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Date ordered" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kX-WZ-LAW">
-                                <rect key="frame" x="33" y="279" width="110" height="20"/>
+                                <rect key="frame" x="33" y="255" width="110" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="8zE-NO-17c"/>
                                 </constraints>
@@ -304,19 +304,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Add Photo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yg2-yu-oKo">
-                                <rect key="frame" x="30" y="466" width="68" height="17"/>
+                                <rect key="frame" x="30" y="438" width="68" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6gc-kr-p1B">
-                                <rect key="frame" x="30" y="491" width="82" height="57"/>
+                                <rect key="frame" x="30" y="462" width="82" height="57"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="82" id="mbC-uY-mlj"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SRj-1C-NfN">
-                                <rect key="frame" x="120" y="491" width="75.5" height="57"/>
+                                <rect key="frame" x="121" y="462" width="75.5" height="57"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UK-x1-cUj">
                                 <rect key="frame" x="185" y="145" width="20" height="20"/>
@@ -330,12 +330,12 @@
                                 <state key="normal" title="Button" image="star" catalog="system"/>
                             </button>
                             <datePicker contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="uh6-d2-cZ4">
-                                <rect key="frame" x="145" y="279" width="123" height="20"/>
+                                <rect key="frame" x="145" y="255" width="123" height="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94539037059999997" green="1" blue="0.90580768" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </datePicker>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kAk-eK-bxn">
-                                <rect key="frame" x="30" y="194" width="230" height="77"/>
+                                <rect key="frame" x="30" y="194" width="230" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.95953471530000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -344,13 +344,13 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textField opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Restaurant's email address" borderStyle="roundedRect" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Ydh-JJ-enw">
-                                <rect key="frame" x="25" y="307" width="241" height="34"/>
+                                <rect key="frame" x="30" y="283" width="241" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Restraunt's phone number" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Rjk-j1-922">
-                                <rect key="frame" x="25" y="349" width="241" height="34"/>
+                                <rect key="frame" x="30" y="325" width="241" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -363,7 +363,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Restaurant's contact person" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="32O-Hr-NE6">
-                                <rect key="frame" x="25" y="391" width="241" height="34"/>
+                                <rect key="frame" x="30" y="367" width="241" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -404,24 +404,24 @@
                                 </constraints>
                                 <state key="normal" title="Button" image="star" catalog="system"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uRg-VS-9xt">
-                                <rect key="frame" x="205" y="491" width="75.5" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Delivery to the airport?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEn-Wf-BfJ">
-                                <rect key="frame" x="30" y="437" width="175" height="21"/>
+                                <rect key="frame" x="30" y="409" width="175" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Yes/No" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="99R-H7-lcH">
-                                <rect key="frame" x="213" y="430" width="68" height="34"/>
+                                <rect key="frame" x="213" y="409" width="68" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uRg-VS-9xt">
+                                <rect key="frame" x="205" y="462" width="75.5" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -451,6 +451,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XiL-p9-7FT"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Add Rate" image="plus.circle" catalog="system" id="0M8-QJ-pgd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FQs-4h-PGO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1046,7 +1047,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iqe-Fn-HT7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-301.875" y="645.42253521126759"/>
+            <point key="canvasLocation" x="521" y="1177"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7Rt-ls-xEc">
@@ -1060,6 +1061,7 @@
                     <connections>
                         <segue destination="gR9-5k-ua5" kind="relationship" relationship="viewControllers" id="0BD-2M-6Gh"/>
                         <segue destination="6lF-9a-eBm" kind="relationship" relationship="viewControllers" id="DBm-ng-eHr"/>
+                        <segue destination="R8p-Qd-mhx" kind="relationship" relationship="viewControllers" id="n73-UY-Fti"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="59P-R6-OVB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1088,7 +1090,7 @@
                                     </mask>
                                 </variation>
                             </searchBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Recent Timeline from Angels" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0Q-Es-ue2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Recent service from Angels" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0Q-Es-ue2">
                                 <rect key="frame" x="20" y="317" width="236" height="20.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20.5" id="kDw-ex-zn2"/>
@@ -1318,6 +1320,7 @@
         <image name="house" catalog="system" width="64" height="54"/>
         <image name="magnifyingglass.circle" catalog="system" width="64" height="60"/>
         <image name="paperclip.circle" catalog="system" width="64" height="60"/>
+        <image name="plus.circle" catalog="system" width="64" height="60"/>
         <image name="plus.circle.fill" catalog="system" width="64" height="60"/>
         <image name="star" catalog="system" width="64" height="58"/>
     </resources>
