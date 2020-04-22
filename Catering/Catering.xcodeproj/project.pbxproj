@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B074D21244A07BE0000E4A3 /* TimelineViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B074D1F244A07BE0000E4A3 /* TimelineViewCell.swift */; };
+		1B074D22244A07BE0000E4A3 /* TimelineViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B074D20244A07BE0000E4A3 /* TimelineViewCell.xib */; };
 		1B22B1C6240E8F6C00A7FEE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B22B1C5240E8F6C00A7FEE3 /* AppDelegate.swift */; };
 		1B22B1C8240E8F6C00A7FEE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B22B1C7240E8F6C00A7FEE3 /* SceneDelegate.swift */; };
 		1B22B1CA240E8F6C00A7FEE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B22B1C9240E8F6C00A7FEE3 /* ViewController.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B074D1F244A07BE0000E4A3 /* TimelineViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewCell.swift; sourceTree = "<group>"; };
+		1B074D20244A07BE0000E4A3 /* TimelineViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimelineViewCell.xib; sourceTree = "<group>"; };
 		1B22B1C2240E8F6C00A7FEE3 /* Catering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B22B1C5240E8F6C00A7FEE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B22B1C7240E8F6C00A7FEE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 			children = (
 				1B22B1C5240E8F6C00A7FEE3 /* AppDelegate.swift */,
 				1B22B1C7240E8F6C00A7FEE3 /* SceneDelegate.swift */,
+				1B074D1F244A07BE0000E4A3 /* TimelineViewCell.swift */,
+				1B074D20244A07BE0000E4A3 /* TimelineViewCell.xib */,
 				1B22B1C9240E8F6C00A7FEE3 /* ViewController.swift */,
 				1B22B1CB240E8F6C00A7FEE3 /* Main.storyboard */,
 				1B22B1CE240E8F6D00A7FEE3 /* Assets.xcassets */,
@@ -166,6 +172,7 @@
 				1B45F11C24408A0100CB749B /* CollectionViewCell.xib in Resources */,
 				1B30A4D124125729006816DC /* RestaurantsTableViewCell.xib in Resources */,
 				1B22B1CF240E8F6D00A7FEE3 /* Assets.xcassets in Resources */,
+				1B074D22244A07BE0000E4A3 /* TimelineViewCell.xib in Resources */,
 				1B22B1CD240E8F6C00A7FEE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B074D21244A07BE0000E4A3 /* TimelineViewCell.swift in Sources */,
 				1BDFA6AF240FDD5D002B8B2B /* WelcomeBackViewController.swift in Sources */,
 				1BDFA6AC240FDABA002B8B2B /* TableViewCell.swift in Sources */,
 				1B45F11B24408A0100CB749B /* CollectionViewCell.swift in Sources */,
