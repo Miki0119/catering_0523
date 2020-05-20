@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Catering
+//  PracticeForFirebaseApp
 //
-//  Created by Miki Kuromoto on 2020/03/03.
+//  Created by Miki Kuromoto on 2020/05/06.
 //  Copyright © 2020 Sky-Angel. All rights reserved.
 //
 
@@ -13,14 +13,17 @@ import Firebase
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-         FirebaseApp.configure()
+        FirebaseApp.configure()
         return true
     }
 }
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
+        return true
+    }
 
     // MARK: UISceneSession Lifecycle
 
@@ -37,4 +40,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
 

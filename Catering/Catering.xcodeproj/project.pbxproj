@@ -19,6 +19,7 @@
 		1B30A4D124125729006816DC /* RestaurantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B30A4CF24125729006816DC /* RestaurantsTableViewCell.xib */; };
 		1B45F11B24408A0100CB749B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B45F11924408A0100CB749B /* CollectionViewCell.swift */; };
 		1B45F11C24408A0100CB749B /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B45F11A24408A0100CB749B /* CollectionViewCell.xib */; };
+		1B4D02F02454B9E5001CDFCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B4D02EF2454B9E5001CDFCD /* GoogleService-Info.plist */; };
 		1BC5FA8F241106010015AFDE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC5FA8E241106010015AFDE /* SearchViewController.swift */; };
 		1BC5FA9324112B9E0015AFDE /* restaurantslistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC5FA9224112B9E0015AFDE /* restaurantslistViewController.swift */; };
 		1BDFA6A9240FD763002B8B2B /* StartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFA6A8240FD763002B8B2B /* StartPageViewController.swift */; };
@@ -27,6 +28,7 @@
 		1BDFA6AF240FDD5D002B8B2B /* WelcomeBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFA6AE240FDD5D002B8B2B /* WelcomeBackViewController.swift */; };
 		1BDFA6B1240FDD84002B8B2B /* CreateNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFA6B0240FDD84002B8B2B /* CreateNewAccountViewController.swift */; };
 		1BDFA6B3240FDE07002B8B2B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFA6B2240FDE07002B8B2B /* HomeViewController.swift */; };
+		E009957FE773517FE22FD9A1 /* Pods_Catering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F6C042CFCB149B690A208B /* Pods_Catering.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,7 @@
 		1B30A4CF24125729006816DC /* RestaurantsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantsTableViewCell.xib; sourceTree = "<group>"; };
 		1B45F11924408A0100CB749B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		1B45F11A24408A0100CB749B /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		1B4D02EF2454B9E5001CDFCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1BC5FA8E241106010015AFDE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		1BC5FA9224112B9E0015AFDE /* restaurantslistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantslistViewController.swift; sourceTree = "<group>"; };
 		1BDFA6A8240FD763002B8B2B /* StartPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +55,9 @@
 		1BDFA6AE240FDD5D002B8B2B /* WelcomeBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackViewController.swift; sourceTree = "<group>"; };
 		1BDFA6B0240FDD84002B8B2B /* CreateNewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewAccountViewController.swift; sourceTree = "<group>"; };
 		1BDFA6B2240FDE07002B8B2B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9C171B3C379129BE463DF44C /* Pods-Catering.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catering.debug.xcconfig"; path = "Target Support Files/Pods-Catering/Pods-Catering.debug.xcconfig"; sourceTree = "<group>"; };
+		B4D227F23582B9A07137C036 /* Pods-Catering.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catering.release.xcconfig"; path = "Target Support Files/Pods-Catering/Pods-Catering.release.xcconfig"; sourceTree = "<group>"; };
+		C5F6C042CFCB149B690A208B /* Pods_Catering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E009957FE773517FE22FD9A1 /* Pods_Catering.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +77,8 @@
 			children = (
 				1B22B1C4240E8F6C00A7FEE3 /* Catering */,
 				1B22B1C3240E8F6C00A7FEE3 /* Products */,
+				DFCCFFFD3DFC68ECF33DA388 /* Pods */,
+				AFBFF0B2FCCC030F75A7FD87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +96,7 @@
 				1B22B1C5240E8F6C00A7FEE3 /* AppDelegate.swift */,
 				1B22B1C7240E8F6C00A7FEE3 /* SceneDelegate.swift */,
 				1B074D1F244A07BE0000E4A3 /* TimelineViewCell.swift */,
+				1B4D02EF2454B9E5001CDFCD /* GoogleService-Info.plist */,
 				1B074D20244A07BE0000E4A3 /* TimelineViewCell.xib */,
 				1B22B1C9240E8F6C00A7FEE3 /* ViewController.swift */,
 				1B22B1CB240E8F6C00A7FEE3 /* Main.storyboard */,
@@ -109,6 +119,24 @@
 			path = Catering;
 			sourceTree = "<group>";
 		};
+		AFBFF0B2FCCC030F75A7FD87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5F6C042CFCB149B690A208B /* Pods_Catering.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFCCFFFD3DFC68ECF33DA388 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C171B3C379129BE463DF44C /* Pods-Catering.debug.xcconfig */,
+				B4D227F23582B9A07137C036 /* Pods-Catering.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B22B1D6240E8F6D00A7FEE3 /* Build configuration list for PBXNativeTarget "Catering" */;
 			buildPhases = (
+				49D80B643477A4BCE32429DB /* [CP] Check Pods Manifest.lock */,
 				1B22B1BE240E8F6C00A7FEE3 /* Sources */,
 				1B22B1BF240E8F6C00A7FEE3 /* Frameworks */,
 				1B22B1C0240E8F6C00A7FEE3 /* Resources */,
+				F41E144A0580D440C0FD8CB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B22B1D2240E8F6D00A7FEE3 /* LaunchScreen.storyboard in Resources */,
+				1B4D02F02454B9E5001CDFCD /* GoogleService-Info.plist in Resources */,
 				1BDFA6AD240FDABA002B8B2B /* TableViewCell.xib in Resources */,
 				1B45F11C24408A0100CB749B /* CollectionViewCell.xib in Resources */,
 				1B30A4D124125729006816DC /* RestaurantsTableViewCell.xib in Resources */,
@@ -178,6 +209,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49D80B643477A4BCE32429DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Catering-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F41E144A0580D440C0FD8CB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catering/Pods-Catering-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catering/Pods-Catering-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Catering/Pods-Catering-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B22B1BE240E8F6C00A7FEE3 /* Sources */ = {
@@ -338,6 +411,7 @@
 		};
 		1B22B1D7240E8F6D00A7FEE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C171B3C379129BE463DF44C /* Pods-Catering.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -356,6 +430,7 @@
 		};
 		1B22B1D8240E8F6D00A7FEE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D227F23582B9A07137C036 /* Pods-Catering.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
