@@ -7,6 +7,348 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Top Page View Controller-->
+        <scene sceneID="BWM-DU-kfj">
+            <objects>
+                <viewController id="eSq-IL-7xt" customClass="TopPageViewController" customModule="Catering" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DER-Vn-JLQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sky Angel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W06-2z-Wb4">
+                                <rect key="frame" x="118" y="254.5" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Private Jet Cabin Attendant" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuW-z3-YdH">
+                                <rect key="frame" x="46" y="344" width="228" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zty-8s-eck">
+                                <rect key="frame" x="123" y="127" width="74" height="119.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="100"/>
+                                <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exclusive" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7z-BP-ecB">
+                                <rect key="frame" x="46" y="381" width="228" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="Pgt-fw-Bab"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.97656984452191764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zty-8s-eck" firstAttribute="top" secondItem="KIW-JO-0dc" secondAttribute="top" constant="127" id="209-Pj-kTV"/>
+                            <constraint firstItem="KIW-JO-0dc" firstAttribute="trailing" secondItem="E7z-BP-ecB" secondAttribute="trailing" constant="46" id="Ayl-YH-8ju"/>
+                            <constraint firstItem="KIW-JO-0dc" firstAttribute="trailing" secondItem="W06-2z-Wb4" secondAttribute="trailing" constant="117" id="JLx-6g-kKd"/>
+                            <constraint firstItem="E7z-BP-ecB" firstAttribute="leading" secondItem="KIW-JO-0dc" secondAttribute="leading" constant="46" id="K3y-ad-UXj"/>
+                            <constraint firstItem="zty-8s-eck" firstAttribute="leading" secondItem="KIW-JO-0dc" secondAttribute="leading" constant="123" id="LiK-8H-0Vu"/>
+                            <constraint firstItem="W06-2z-Wb4" firstAttribute="leading" secondItem="KIW-JO-0dc" secondAttribute="leading" constant="118" id="QXC-FZ-YMj"/>
+                            <constraint firstItem="RuW-z3-YdH" firstAttribute="top" secondItem="W06-2z-Wb4" secondAttribute="bottom" constant="68.5" id="a6r-ex-2bp"/>
+                            <constraint firstItem="W06-2z-Wb4" firstAttribute="top" secondItem="zty-8s-eck" secondAttribute="bottom" constant="8" id="aBo-He-QaW"/>
+                            <constraint firstItem="RuW-z3-YdH" firstAttribute="leading" secondItem="KIW-JO-0dc" secondAttribute="leading" constant="46" id="rCZ-jY-h5q"/>
+                            <constraint firstItem="KIW-JO-0dc" firstAttribute="trailing" secondItem="zty-8s-eck" secondAttribute="trailing" constant="123" id="saN-7O-igP"/>
+                            <constraint firstItem="E7z-BP-ecB" firstAttribute="top" secondItem="RuW-z3-YdH" secondAttribute="bottom" constant="16.5" id="tly-tB-94A"/>
+                            <constraint firstItem="KIW-JO-0dc" firstAttribute="trailing" secondItem="RuW-z3-YdH" secondAttribute="trailing" constant="46" id="wYW-dJ-BN8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KIW-JO-0dc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pZF-qz-epB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7678" y="-1541"/>
+        </scene>
+        <!--What Is Sky Angel View Controller-->
+        <scene sceneID="DwA-nV-Uc2">
+            <objects>
+                <viewController id="m4C-Oa-asy" customClass="WhatIsSkyAngelViewController" customModule="Catering" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EM3-X5-kGC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgI-Jb-of5">
+                                <rect key="frame" x="135" y="55" width="47.5" height="84"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="70"/>
+                                <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sky Angel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfs-rf-dVN">
+                                <rect key="frame" x="118" y="147" width="81.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's Sky Angel?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXA-pD-l7K">
+                                <rect key="frame" x="62" y="324" width="191.5" height="22"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FREE App for VIP FA!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aae-3E-Gyb">
+                                <rect key="frame" x="37" y="199" width="243.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fZ2-Aa-BYP">
+                                <rect key="frame" x="16" y="390" width="288" height="130"/>
+                                <string key="text">Sky Angel App enables you to look for suitable caterers easier and for FREE!    The caterer information is all from you; private jet flight attendants from around the world, with ratings and comments. All the information can be searched for by either airport or map. Join this app, and post and share your catering recommendations!</string>
+                                <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJy-cX-F1H">
+                                <rect key="frame" x="64" y="246" width="192" height="30"/>
+                                <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Click and Go">
+                                    <color key="titleColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qPS-10-6MC" kind="show" id="pyR-zZ-E85"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Private Jet Catering Info and Ratings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOQ-aX-JwQ">
+                                <rect key="frame" x="35" y="354" width="247.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.98022795380000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="0.96078431369999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="704-jq-Ao2" firstAttribute="trailing" secondItem="xJy-cX-F1H" secondAttribute="trailing" constant="64" id="0FG-lK-imb"/>
+                            <constraint firstItem="ZOQ-aX-JwQ" firstAttribute="leading" secondItem="704-jq-Ao2" secondAttribute="leading" constant="35" id="25a-z2-DOM"/>
+                            <constraint firstItem="xJy-cX-F1H" firstAttribute="centerX" secondItem="fZ2-Aa-BYP" secondAttribute="centerX" id="52x-Pu-ndh"/>
+                            <constraint firstItem="704-jq-Ao2" firstAttribute="trailing" secondItem="JXA-pD-l7K" secondAttribute="trailing" constant="66.5" id="DwR-8t-LPZ"/>
+                            <constraint firstItem="704-jq-Ao2" firstAttribute="trailing" secondItem="ZOQ-aX-JwQ" secondAttribute="trailing" constant="37.5" id="FQU-np-K0Y"/>
+                            <constraint firstItem="704-jq-Ao2" firstAttribute="trailing" secondItem="fZ2-Aa-BYP" secondAttribute="trailing" constant="16" id="HHp-Tc-lZU"/>
+                            <constraint firstItem="704-jq-Ao2" firstAttribute="bottom" secondItem="fZ2-Aa-BYP" secondAttribute="bottom" constant="48" id="Ilq-MK-Vhi"/>
+                            <constraint firstItem="704-jq-Ao2" firstAttribute="trailing" secondItem="cfs-rf-dVN" secondAttribute="trailing" constant="120.5" id="Puy-oK-qsa"/>
+                            <constraint firstItem="fZ2-Aa-BYP" firstAttribute="leading" secondItem="704-jq-Ao2" secondAttribute="leading" constant="16" id="QGj-JF-6qi"/>
+                            <constraint firstItem="fZ2-Aa-BYP" firstAttribute="top" secondItem="ZOQ-aX-JwQ" secondAttribute="bottom" constant="19" id="VQn-Tm-QX3"/>
+                            <constraint firstItem="JXA-pD-l7K" firstAttribute="top" secondItem="xJy-cX-F1H" secondAttribute="bottom" constant="48" id="VaG-1M-gUa"/>
+                            <constraint firstItem="704-jq-Ao2" firstAttribute="trailing" secondItem="aae-3E-Gyb" secondAttribute="trailing" constant="39.5" id="Wbc-tD-jkx"/>
+                            <constraint firstItem="qgI-Jb-of5" firstAttribute="leading" secondItem="704-jq-Ao2" secondAttribute="leading" constant="135" id="Xid-dv-S8N"/>
+                            <constraint firstItem="aae-3E-Gyb" firstAttribute="leading" secondItem="704-jq-Ao2" secondAttribute="leading" constant="37" id="Z1U-RS-N5M"/>
+                            <constraint firstItem="ZOQ-aX-JwQ" firstAttribute="top" secondItem="JXA-pD-l7K" secondAttribute="bottom" constant="8" id="ZdK-4d-qaw"/>
+                            <constraint firstItem="JXA-pD-l7K" firstAttribute="leading" secondItem="704-jq-Ao2" secondAttribute="leading" constant="62" id="Zlk-yg-fea"/>
+                            <constraint firstItem="qgI-Jb-of5" firstAttribute="centerX" secondItem="cfs-rf-dVN" secondAttribute="centerX" id="avQ-iv-T4T"/>
+                            <constraint firstItem="xJy-cX-F1H" firstAttribute="leading" secondItem="704-jq-Ao2" secondAttribute="leading" constant="64" id="h6X-DP-bpq"/>
+                            <constraint firstItem="fZ2-Aa-BYP" firstAttribute="leading" secondItem="EM3-X5-kGC" secondAttribute="leadingMargin" id="ijR-xX-7Ef"/>
+                            <constraint firstItem="qgI-Jb-of5" firstAttribute="top" secondItem="704-jq-Ao2" secondAttribute="top" constant="55" id="kgZ-yh-OIM"/>
+                            <constraint firstItem="cfs-rf-dVN" firstAttribute="centerX" secondItem="aae-3E-Gyb" secondAttribute="centerX" id="lGc-GN-I7K"/>
+                            <constraint firstItem="704-jq-Ao2" firstAttribute="trailing" secondItem="qgI-Jb-of5" secondAttribute="trailing" constant="137.5" id="orm-ER-Nn1"/>
+                            <constraint firstItem="xJy-cX-F1H" firstAttribute="top" secondItem="aae-3E-Gyb" secondAttribute="bottom" constant="20.5" id="qDC-GK-1mH"/>
+                            <constraint firstItem="aae-3E-Gyb" firstAttribute="centerX" secondItem="ZOQ-aX-JwQ" secondAttribute="centerX" id="r10-ZM-SMo"/>
+                            <constraint firstItem="cfs-rf-dVN" firstAttribute="leading" secondItem="704-jq-Ao2" secondAttribute="leading" constant="118" id="rGb-fu-aCS"/>
+                            <constraint firstItem="cfs-rf-dVN" firstAttribute="top" secondItem="qgI-Jb-of5" secondAttribute="bottom" constant="8" id="rmI-ko-rUw"/>
+                            <constraint firstItem="fZ2-Aa-BYP" firstAttribute="trailing" secondItem="EM3-X5-kGC" secondAttribute="trailingMargin" id="zLr-Fb-CiC"/>
+                            <constraint firstItem="aae-3E-Gyb" firstAttribute="top" secondItem="cfs-rf-dVN" secondAttribute="bottom" constant="37.5" id="zrr-Lv-hgq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="704-jq-Ao2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GgN-Uj-ix2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6691.875" y="-1542.2535211267607"/>
+        </scene>
+        <!--Terms And Conditions View Controller-->
+        <scene sceneID="hEk-yz-PLj">
+            <objects>
+                <viewController id="qPS-10-6MC" customClass="TermsAndConditionsViewController" customModule="Catering" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y6h-6p-S4L">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PiC-mQ-eIg">
+                                <rect key="frame" x="123" y="20" width="74" height="119.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="100"/>
+                                <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sky Angel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpK-Wk-QLM">
+                                <rect key="frame" x="118" y="147.5" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms and Conditions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bX-u9-6lV">
+                                <rect key="frame" x="86" y="176" width="148" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x4J-Q6-9K1">
+                                <rect key="frame" x="16" y="264" width="288" height="154"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffs-Db-iao">
+                                        <rect key="frame" x="0.0" y="8" width="288" height="4954"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9qX-Ul-6v1">
+                                                <rect key="frame" x="4" y="8" width="280" height="4955"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <string key="text"> ccurate, and under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed upon.
+
+Counter Notification
+
+If you believe your own copyrighted material has been removed from the Application as a result of a mistake or misidentification, you may submit a written counter notification to us using the contact information provided inside the Application. To be an effective Counter Notification under the DMCA, your Counter Notification must include substantially the following: (1) identification of the material that has been removed or disabled and the location at which the material appeared before it was removed or disabled; (2) a statement that you consent to the jurisdiction of the Federal District Court in which your address is located, or if your address is outside the United States, for any judicial district in which we are located; (3) a statement that you will accept service of process from the party that filed the Notification or the party’s agent; (4) your name, address, and telephone number; (5) a statement under penalty of perjury that you have a good faith belief that the material in question was removed or disabled as a result of a mistake or misidentification of the material to be removed or disabled; and (6) your physical or electronic signature.
+
+If you send us a valid, written Counter Notification meeting the requirements described above, we will restore your removed or disabled material, unless we first receive notice from the party filing the Notification informing us that such party has filed a court action to restrain you from engaging in infringing activity related to the material in question. Please note that if you materially misrepresent that the disabled or removed content was removed by mistake or misidentification, you may be liable for damages, including costs and attorney’s fees. Filing a false Counter Notification constitutes perjury.
+
+
+COPYRIGHT INFRINGEMENTS
+
+We respect the intellectual property rights of others. If you believe that any material available on or through the Application infringes upon any copyright you own or control, please immediately notify us using the contact information provided inside the Application. A copy of your Notification will be sent to the person who posted or stored the material addressed in the Notification. Please be advised that pursuant to federal law you may be held liable for damages if you make material misrepresentations in a Notification. Thus, if you are not sure that material located on or linked to by the Application infringes your copyright, you should consider first contacting an attorney.
+
+TERM AND TERMINATION
+
+These Terms of Use shall remain in full force and effect while you use the Application. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS OF USE, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SITE (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE TERMS OF USE OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE SITE OR DELETE YOUR ACCOUNT AND ANY CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN OUR SOLE DISCRETION.
+
+If we terminate or suspend your account for any reason, you are prohibited from registering and creating a new account under your name, a fake or borrowed name, or the name of any third party, even if you may be acting on behalf of the third party. In addition to terminating or suspending your account, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress.
+
+MODIFICATIONS AND INTERRUPTIONS
+
+We reserve the right to change, modify, or remove the contents of the Application at any time or for any reason at our sole discretion without notice. However, we have no obligation to update any information on our Application. We also reserve the right to modify or discontinue all or part of the Application without notice at any time. We will not be liable to you or any third party for any modification, price change, suspension, or discontinuance of the Application.
+
+We cannot guarantee the Application will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Application, resulting in interruptions, delays, or errors. We reserve the right to change, revise, update, suspend, discontinue, or otherwise modify the Application at any time or for any reason without notice to you. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Application during any downtime or discontinuance of the Application. Nothing in these Terms of Use will be construed to obligate us to maintain and support the Application or to supply any corrections, updates, or releases in connection therewith.
+
+GOVERNING LAW
+
+These Terms of Use and your use of the Application are governed by and construed in accordance with the laws in Japan applicable to agreements made and to be entirely performed within Japan, without regard to its conflict of law principles.
+
+DISPUTE RESOLUTION
+
+Any legal action of whatever nature brought by either you or us (collectively, the “Parties” and individually, a “Party”) shall be commenced or prosecuted in Japan , and the Parties hereby consent to, and waive all defenses of lack of personal jurisdiction and forum non convenient with respect to venue and jurisdiction in such state and federal courts. Application of the United Nations Convention on Contracts for the International Sale of Goods and the Uniform Computer Information Transaction Act (UCITA) are excluded from these Terms of Use. In no event shall any claim, action, or proceeding brought by either Party related in any way to the Application be commenced more than 1 years after the cause of action arose.
+
+CORRECTIONS
+
+There may be information on the Application that contains typographical errors, inaccuracies, or omissions that may relate to the Application, including descriptions, pricing, availability, and various other information. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information on the Application at any time, without prior notice.
+
+DISCLAIMER
+
+THE APPLICATION IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE APPLICATION SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE APPLICATION AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE APPLICATION’S CONTENT OR THE CONTENT OF ANY WEBSITES LINKED TO THIS APPLICATION AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE APPLICATION, (3) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE APPLICATION, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE APPLICATION BY ANY THIRD PARTY, AND/OR (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE APPLICATION. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE APPLICATION, ANY HYPERLINKED WEBSITE, OR ANY WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE.
+
+LIMITATIONS OF LIABILITY
+
+IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM YOUR USE OF THE APPLICATION, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
+ INDEMNIFICATION
+
+You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all of our respective officers, agents, partners, and employees, from and against any loss, damage, liability, claim, or demand, including reasonable attorneys’ fees and expenses, made by any third party due to or arising out of: (1) your Contributions; (2) use of the Site; (3) breach of these Terms of Use; (4) any breach of your representations and warranties set forth in these Terms of Use; (5) your violation of the rights of a third party, including but not limited to intellectual property rights; or (6) any overt harmful act toward any other user of the Site with whom you connected via the Site. Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate, at your expense, with our defense of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.
+
+USER DATA
+
+We will maintain certain data that you transmit to the Site for the purpose of managing the Site, as well as data relating to your use of the Site. Although we perform regular routine backups of data, you are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Site. You agree that we shall have no liability to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any such loss or corruption of such data.
+
+ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
+
+Visiting the Site, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications, and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Site, satisfy any legal requirement that such communication be in writing. YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SITE. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means.
+
+
+MISCELLANEOUS
+
+These Terms of Use and any policies or operating rules posted by us on the Application constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Terms of Use shall not operate as a waiver of such right or provision. These Terms of Use operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Terms of Use is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Terms of Use and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Terms of Use or use of the Site. You agree that these Terms of Use will not be construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of these Terms of Use and the lack of signing by the parties hereto to execute these Terms of Use.
+
+</string>
+                                                <color key="textColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="4"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="9qX-Ul-6v1" secondAttribute="trailing" constant="4" id="33Z-Pm-ESt"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="4954" id="DAU-Rg-LhR"/>
+                                            <constraint firstItem="9qX-Ul-6v1" firstAttribute="centerX" secondItem="ffs-Db-iao" secondAttribute="centerX" id="MPU-UK-CJm"/>
+                                            <constraint firstAttribute="height" constant="4954" id="TYD-Zc-xYi"/>
+                                            <constraint firstItem="9qX-Ul-6v1" firstAttribute="top" secondItem="ffs-Db-iao" secondAttribute="top" constant="8" id="gB5-re-yeO"/>
+                                            <constraint firstItem="9qX-Ul-6v1" firstAttribute="top" secondItem="ffs-Db-iao" secondAttribute="topMargin" id="itJ-yw-zqS"/>
+                                            <constraint firstAttribute="bottom" secondItem="9qX-Ul-6v1" secondAttribute="bottom" constant="-9" id="jHf-rX-MOe"/>
+                                            <constraint firstItem="9qX-Ul-6v1" firstAttribute="leading" secondItem="ffs-Db-iao" secondAttribute="leading" constant="4" id="kwb-wQ-XcS"/>
+                                            <constraint firstItem="9qX-Ul-6v1" firstAttribute="leading" secondItem="ffs-Db-iao" secondAttribute="leading" constant="4" id="zXH-S4-eZz"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ffs-Db-iao" firstAttribute="top" secondItem="YjP-Mu-bra" secondAttribute="top" constant="8" id="FcM-8H-YVp"/>
+                                    <constraint firstAttribute="trailing" secondItem="ffs-Db-iao" secondAttribute="trailing" id="JjA-nU-T4j"/>
+                                    <constraint firstItem="ffs-Db-iao" firstAttribute="leading" secondItem="YjP-Mu-bra" secondAttribute="leading" id="O1l-Q1-png"/>
+                                    <constraint firstItem="ffs-Db-iao" firstAttribute="centerX" secondItem="x4J-Q6-9K1" secondAttribute="centerX" id="TdA-mW-azU"/>
+                                    <constraint firstItem="ffs-Db-iao" firstAttribute="top" secondItem="x4J-Q6-9K1" secondAttribute="topMargin" id="VrH-XJ-egr"/>
+                                    <constraint firstItem="ffs-Db-iao" firstAttribute="leading" secondItem="3IK-9p-fhd" secondAttribute="leading" id="Y3A-CP-L3r"/>
+                                    <constraint firstItem="ffs-Db-iao" firstAttribute="trailing" secondItem="YjP-Mu-bra" secondAttribute="trailing" id="fBh-lG-39z"/>
+                                    <constraint firstAttribute="bottom" secondItem="ffs-Db-iao" secondAttribute="bottom" constant="-4788" id="kyt-9S-AdR"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="YjP-Mu-bra"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="3IK-9p-fhd"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disagree" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbC-4p-GIX">
+                                <rect key="frame" x="133" y="477" width="54" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="KSG-gJ-mCl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyE-8S-x9e">
+                                <rect key="frame" x="102" y="442" width="116" height="27"/>
+                                <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                <state key="normal" title="Agree and Go">
+                                    <color key="titleColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.98022795380000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pyE-8S-x9e" firstAttribute="top" secondItem="x4J-Q6-9K1" secondAttribute="bottom" constant="24" id="4By-Rq-5e7"/>
+                            <constraint firstItem="0bX-u9-6lV" firstAttribute="top" secondItem="bpK-Wk-QLM" secondAttribute="bottom" constant="7.5" id="5O3-n2-n8F"/>
+                            <constraint firstItem="RbC-4p-GIX" firstAttribute="top" secondItem="pyE-8S-x9e" secondAttribute="bottom" constant="8" id="60R-J3-UC7"/>
+                            <constraint firstItem="RGd-Kk-Ob1" firstAttribute="trailing" secondItem="x4J-Q6-9K1" secondAttribute="trailing" constant="16" id="75e-RQ-Lwc"/>
+                            <constraint firstItem="bpK-Wk-QLM" firstAttribute="top" secondItem="PiC-mQ-eIg" secondAttribute="bottom" constant="8" id="8Kp-A7-Zt1"/>
+                            <constraint firstItem="RGd-Kk-Ob1" firstAttribute="trailing" secondItem="pyE-8S-x9e" secondAttribute="trailing" constant="102" id="9Cm-u6-pRh"/>
+                            <constraint firstItem="PiC-mQ-eIg" firstAttribute="top" secondItem="RGd-Kk-Ob1" secondAttribute="top" constant="20" id="EIf-WU-f5J"/>
+                            <constraint firstItem="x4J-Q6-9K1" firstAttribute="top" secondItem="0bX-u9-6lV" secondAttribute="bottom" constant="76" id="F7t-Jl-qzD"/>
+                            <constraint firstItem="RGd-Kk-Ob1" firstAttribute="trailing" secondItem="0bX-u9-6lV" secondAttribute="trailing" constant="86" id="Gzy-8a-swc"/>
+                            <constraint firstItem="0bX-u9-6lV" firstAttribute="leading" secondItem="RGd-Kk-Ob1" secondAttribute="leading" constant="86" id="KlT-eP-cyB"/>
+                            <constraint firstItem="RGd-Kk-Ob1" firstAttribute="trailing" secondItem="RbC-4p-GIX" secondAttribute="trailing" constant="133" id="P2k-zQ-RFg"/>
+                            <constraint firstItem="RbC-4p-GIX" firstAttribute="top" secondItem="pyE-8S-x9e" secondAttribute="bottom" constant="8" id="Rfz-q4-XHx"/>
+                            <constraint firstItem="x4J-Q6-9K1" firstAttribute="leading" secondItem="y6h-6p-S4L" secondAttribute="leadingMargin" id="Szj-Oe-qkZ"/>
+                            <constraint firstItem="RGd-Kk-Ob1" firstAttribute="trailing" secondItem="PiC-mQ-eIg" secondAttribute="trailing" constant="123" id="THn-ro-bY8"/>
+                            <constraint firstItem="0bX-u9-6lV" firstAttribute="top" secondItem="bpK-Wk-QLM" secondAttribute="bottom" constant="7.5" id="UGL-KD-aZc"/>
+                            <constraint firstItem="pyE-8S-x9e" firstAttribute="top" secondItem="x4J-Q6-9K1" secondAttribute="bottom" constant="24" id="V09-AX-K74"/>
+                            <constraint firstItem="RGd-Kk-Ob1" firstAttribute="trailing" secondItem="bpK-Wk-QLM" secondAttribute="trailing" constant="118" id="Wh8-0T-6Ev"/>
+                            <constraint firstItem="pyE-8S-x9e" firstAttribute="leading" secondItem="RGd-Kk-Ob1" secondAttribute="leading" constant="102" id="ahr-4K-hjy"/>
+                            <constraint firstItem="0bX-u9-6lV" firstAttribute="top" secondItem="bpK-Wk-QLM" secondAttribute="bottom" constant="7.5" id="cU2-gC-XnX"/>
+                            <constraint firstItem="RGd-Kk-Ob1" firstAttribute="trailing" secondItem="0bX-u9-6lV" secondAttribute="trailing" constant="86" id="hpk-i8-QG3"/>
+                            <constraint firstItem="bpK-Wk-QLM" firstAttribute="leading" secondItem="RGd-Kk-Ob1" secondAttribute="leading" constant="118" id="icT-Cw-Qg7"/>
+                            <constraint firstItem="0bX-u9-6lV" firstAttribute="leading" secondItem="RGd-Kk-Ob1" secondAttribute="leading" constant="86" id="irZ-1B-amO"/>
+                            <constraint firstItem="PiC-mQ-eIg" firstAttribute="centerX" secondItem="bpK-Wk-QLM" secondAttribute="centerX" id="lmH-0Q-PoS"/>
+                            <constraint firstItem="RbC-4p-GIX" firstAttribute="leading" secondItem="RGd-Kk-Ob1" secondAttribute="leading" constant="133" id="n85-jf-ewy"/>
+                            <constraint firstItem="x4J-Q6-9K1" firstAttribute="top" secondItem="0bX-u9-6lV" secondAttribute="bottom" constant="76" id="p3h-Y7-JaG"/>
+                            <constraint firstItem="x4J-Q6-9K1" firstAttribute="centerX" secondItem="pyE-8S-x9e" secondAttribute="centerX" id="rxv-bn-vSs"/>
+                            <constraint firstAttribute="bottom" secondItem="x4J-Q6-9K1" secondAttribute="bottom" constant="130" id="u4n-or-wpS"/>
+                            <constraint firstItem="PiC-mQ-eIg" firstAttribute="leading" secondItem="RGd-Kk-Ob1" secondAttribute="leading" constant="123" id="wwo-RM-VaJ"/>
+                            <constraint firstItem="x4J-Q6-9K1" firstAttribute="leading" secondItem="RGd-Kk-Ob1" secondAttribute="leading" constant="16" id="xdY-ZR-X1E"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RGd-Kk-Ob1"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="thA-Vk-joB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dfu-Cg-i5o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5657" y="-1541"/>
+        </scene>
         <!--Starting Page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -31,6 +373,13 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sky Angel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKg-pa-Yvn">
                                 <rect key="frame" x="118" y="160" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sky Angel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RjQ-f8-bz0">
+                                <rect key="frame" x="128" y="170" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1189,7 +1538,7 @@
                                 <rect key="frame" x="26" y="52" width="268" height="427"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <string key="text">Personal Information we may collect " Personal information " is information that identifies you as individual, such as : name, nickname, profile picture, email address, nationality, base, company, current contract, airline experience, language, looking for a job. In some cases, we may use a third party service to analyse and improve aviation service or to recruit flight attendants through the sites. In these cases, your personal information maybe collected by this third party and not by us, will be subjected to the third party's privacy policy rather than this privacy policy. We have no control over, and not responsible for , this party's use or disclosure of your personal information. To the extent permitted by appricable law, the Personal Information you provide through the App may be combined with Personal Information and other Information that you provide to us (via online or offline mreans) , that is publicly available, or that we may otherwise obtain online or offline, including, for example, from providers of demographic and other information, social media platforms and other third parties.  Cross border transfer-Your personal information may be stored in any country where we have facilities or service providers, and by using our App you consent to the transfer of information to our countries outside of your country of residence, including the US which may provide different data protection rules than in your counry.</string>
+                                <string key="text">Personal Information we may collect " Personal information " is information that identifies you as individual, such as : name, nickname, profile picture, email address, nationality, base, company, current contract, airline experience, language, looking for a job. In some cases, we may use a third party service to analyse and improve aviation service or to recruit flight attendants through the sites. In these cases, your personal information maybe collected by this third party and not by us, will be subjected to the third party's privacy policy rather than this privacy policy. We have no control over, and not responsible for , this party's use or disclosure of your personal information. To the extent permitted by appricable law, the Personal Information you provide through the App may be combined with Personal Information and other Information that you provide to us (via online or offline means) , that is publicly available, or that we may otherwise obtain online or offline, including, for example, from providers of demographic and other information, social media platforms and other third parties.  Cross border transfer-Your personal information may be stored in any country where we have facilities or service providers, and by using our App you consent to the transfer of information to our countries outside of your country of residence, including the US which may provide different data protection rules than in your counry.</string>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
