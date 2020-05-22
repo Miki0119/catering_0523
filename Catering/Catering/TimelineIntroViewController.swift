@@ -1,14 +1,14 @@
 //
-//  PasswordResetViewController.swift
+//  TimelineIntroViewController.swift
 //  Catering
 //
-//  Created by Miki Kuromoto on 2020/05/21.
+//  Created by Miki Kuromoto on 2020/05/22.
 //  Copyright © 2020 Sky-Angel. All rights reserved.
 //
 
 import UIKit
 
-class PasswordResetViewController: UIViewController {
+class TimelineIntroViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
