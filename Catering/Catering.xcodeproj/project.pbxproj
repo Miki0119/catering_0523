@@ -15,7 +15,7 @@
 		1B22B1C6240E8F6C00A7FEE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B22B1C5240E8F6C00A7FEE3 /* AppDelegate.swift */; };
 		1B22B1C8240E8F6C00A7FEE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B22B1C7240E8F6C00A7FEE3 /* SceneDelegate.swift */; };
 		1B22B1CA240E8F6C00A7FEE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B22B1C9240E8F6C00A7FEE3 /* ViewController.swift */; };
-		1B22B1CD240E8F6C00A7FEE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B22B1CB240E8F6C00A7FEE3 /* Main.storyboard */; settings = {ASSET_TAGS = (VerifyEmail, ); }; };
+		1B22B1CD240E8F6C00A7FEE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B22B1CB240E8F6C00A7FEE3 /* Main.storyboard */; };
 		1B22B1CF240E8F6D00A7FEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B22B1CE240E8F6D00A7FEE3 /* Assets.xcassets */; };
 		1B22B1D2240E8F6D00A7FEE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B22B1D0240E8F6D00A7FEE3 /* LaunchScreen.storyboard */; };
 		1B30A4D024125729006816DC /* RestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30A4CE24125729006816DC /* RestaurantsTableViewCell.swift */; };
