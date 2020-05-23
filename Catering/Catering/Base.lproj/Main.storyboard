@@ -96,7 +96,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hc8-M2-rDK">
-                                <rect key="frame" x="275.5" y="20" width="19.5" height="44"/>
+                                <rect key="frame" x="275.5" y="20" width="19.5" height="22"/>
                                 <state key="normal" image="square.grid.2x2.fill" catalog="system"/>
                             </button>
                         </subviews>
@@ -108,7 +108,6 @@
                             <constraint firstItem="Q2d-F6-Yft" firstAttribute="leading" secondItem="MlT-0d-KKD" secondAttribute="leading" constant="16" id="3dj-vF-HTx"/>
                             <constraint firstItem="UC8-Rw-ujX" firstAttribute="top" secondItem="HHG-qt-Lt3" secondAttribute="bottom" constant="59" id="4WF-1m-4e9"/>
                             <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="Q2d-F6-Yft" secondAttribute="trailing" constant="16" id="5Gm-He-z3m"/>
-                            <constraint firstItem="8Nr-KL-D3V" firstAttribute="top" secondItem="Hc8-M2-rDK" secondAttribute="bottom" constant="120" id="8Lc-VL-6Nz"/>
                             <constraint firstItem="8Nr-KL-D3V" firstAttribute="top" secondItem="MlT-0d-KKD" secondAttribute="top" constant="184" id="BwZ-MX-EqI"/>
                             <constraint firstItem="UC8-Rw-ujX" firstAttribute="leading" secondItem="MlT-0d-KKD" secondAttribute="leading" constant="89" id="EhT-PW-qFf"/>
                             <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="Hc8-M2-rDK" secondAttribute="trailing" constant="25" id="FuI-Ol-9cB"/>
@@ -2306,7 +2305,7 @@ These Terms of Use and any policies or operating rules posted by us on the Appli
         <image name="star" catalog="system" width="64" height="58"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cY8-gO-ScP"/>
+        <segue reference="aVL-U3-7Xy"/>
         <segue reference="ntJ-YW-6Yv"/>
     </inferredMetricsTieBreakers>
 </document>
