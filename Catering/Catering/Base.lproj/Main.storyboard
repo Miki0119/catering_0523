@@ -68,17 +68,60 @@
         <!--Home-->
         <scene sceneID="seA-uh-ZFa">
             <objects>
-                <viewController id="1mO-6W-Bvh" sceneMemberID="viewController">
+                <viewController id="1mO-6W-Bvh" customClass="HomeViewController" customModule="Catering" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ykf-2Y-YYJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q2d-F6-Yft">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q2d-F6-Yft">
                                 <rect key="frame" x="16" y="20" width="288" height="528"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where's your next destination?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Nr-KL-D3V">
+                                <rect key="frame" x="16" y="184" width="288" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="HHG-qt-Lt3">
+                                <rect key="frame" x="16" y="222" width="288" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UC8-Rw-ujX">
+                                <rect key="frame" x="89" y="337" width="142" height="36"/>
+                                <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Find Caterer">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hc8-M2-rDK">
+                                <rect key="frame" x="275.5" y="20" width="19.5" height="44"/>
+                                <state key="normal" image="square.grid.2x2.fill" catalog="system"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98022795380000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HHG-qt-Lt3" firstAttribute="top" secondItem="8Nr-KL-D3V" secondAttribute="bottom" constant="15" id="1k8-Ax-5nj"/>
+                            <constraint firstItem="HHG-qt-Lt3" firstAttribute="leading" secondItem="MlT-0d-KKD" secondAttribute="leading" constant="16" id="2uh-Bg-zZT"/>
+                            <constraint firstItem="8Nr-KL-D3V" firstAttribute="leading" secondItem="MlT-0d-KKD" secondAttribute="leading" constant="16" id="2xI-j4-1bp"/>
+                            <constraint firstItem="Q2d-F6-Yft" firstAttribute="leading" secondItem="MlT-0d-KKD" secondAttribute="leading" constant="16" id="3dj-vF-HTx"/>
+                            <constraint firstItem="UC8-Rw-ujX" firstAttribute="top" secondItem="HHG-qt-Lt3" secondAttribute="bottom" constant="59" id="4WF-1m-4e9"/>
+                            <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="Q2d-F6-Yft" secondAttribute="trailing" constant="16" id="5Gm-He-z3m"/>
+                            <constraint firstItem="8Nr-KL-D3V" firstAttribute="top" secondItem="Hc8-M2-rDK" secondAttribute="bottom" constant="120" id="8Lc-VL-6Nz"/>
+                            <constraint firstItem="8Nr-KL-D3V" firstAttribute="top" secondItem="MlT-0d-KKD" secondAttribute="top" constant="184" id="BwZ-MX-EqI"/>
+                            <constraint firstItem="UC8-Rw-ujX" firstAttribute="leading" secondItem="MlT-0d-KKD" secondAttribute="leading" constant="89" id="EhT-PW-qFf"/>
+                            <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="Hc8-M2-rDK" secondAttribute="trailing" constant="25" id="FuI-Ol-9cB"/>
+                            <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="8Nr-KL-D3V" secondAttribute="trailing" constant="16" id="Oe6-ek-ruw"/>
+                            <constraint firstItem="HHG-qt-Lt3" firstAttribute="leading" secondItem="MlT-0d-KKD" secondAttribute="leading" constant="16" id="Ou1-2S-ZHp"/>
+                            <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="HHG-qt-Lt3" secondAttribute="trailing" constant="16" id="Rea-5Q-cgv"/>
+                            <constraint firstAttribute="bottom" secondItem="Q2d-F6-Yft" secondAttribute="bottom" id="Ud4-bi-xdM"/>
+                            <constraint firstItem="HHG-qt-Lt3" firstAttribute="top" secondItem="8Nr-KL-D3V" secondAttribute="bottom" constant="15" id="Xrr-YD-6bz"/>
+                            <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="UC8-Rw-ujX" secondAttribute="trailing" constant="89" id="dot-1d-dly"/>
+                            <constraint firstItem="Q2d-F6-Yft" firstAttribute="top" secondItem="MlT-0d-KKD" secondAttribute="top" constant="20" id="eWw-Mj-N56"/>
+                            <constraint firstItem="Hc8-M2-rDK" firstAttribute="top" secondItem="MlT-0d-KKD" secondAttribute="top" constant="20" id="hmj-7o-X6C"/>
+                            <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="HHG-qt-Lt3" secondAttribute="trailing" constant="16" id="xkr-fK-fhO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="MlT-0d-KKD"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" landscapeImage="house" largeContentSizeImage="house" selectedImage="house" id="Z2u-Uh-Xzi"/>
@@ -86,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rZQ-xu-qqG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6401.25" y="-483.80281690140845"/>
+            <point key="canvasLocation" x="-6403.125" y="-484.85915492957747"/>
         </scene>
         <!--Add Rate-->
         <scene sceneID="hx1-Da-o3e">
@@ -571,17 +614,6 @@ These Terms of Use and any policies or operating rules posted by us on the Appli
                                 <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w0g-Q5-N6s">
-                                <rect key="frame" x="0.0" y="499" width="320" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem image="backward.end" catalog="system" landscapeImage="backward.end" largeContentSizeImage="backward.end" selectedImage="backward.end" id="cOb-K0-Djk">
-                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                                    </tabBarItem>
-                                    <tabBarItem systemItem="more" id="5Cv-lo-u4g"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98022795380000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
@@ -605,7 +637,6 @@ These Terms of Use and any policies or operating rules posted by us on the Appli
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cw7-UM-d8c"/>
                     </view>
-                    <navigationItem key="navigationItem" id="K4Z-mc-aEV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IHz-Gk-Bnu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -665,7 +696,7 @@ These Terms of Use and any policies or operating rules posted by us on the Appli
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload your profile photo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRL-6i-JDl">
-                                <rect key="frame" x="88" y="409.5" width="144" height="14.5"/>
+                                <rect key="frame" x="88" y="409.5" width="144.5" height="14.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1694,7 +1725,7 @@ These Terms of Use and any policies or operating rules posted by us on the Appli
             </objects>
             <point key="canvasLocation" x="2379" y="1407"/>
         </scene>
-        <!--Sign In View Controller-->
+        <!--Title-->
         <scene sceneID="QwS-ai-SsX">
             <objects>
                 <viewController id="RhE-HS-5Ju" customClass="SignInViewController" customModule="Catering" customModuleProvider="target" sceneMemberID="viewController">
@@ -1756,17 +1787,6 @@ These Terms of Use and any policies or operating rules posted by us on the Appli
                                 <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleAspectFill" fixedFrame="YES" itemPositioning="fill" translatesAutoresizingMaskIntoConstraints="NO" id="jRC-Gj-ACN">
-                                <rect key="frame" x="0.0" y="499" width="320" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem image="backward.end" catalog="system" landscapeImage="backward.end" largeContentSizeImage="backward.end" selectedImage="backward.end" id="eBM-8n-YLa">
-                                        <offsetWrapper key="titlePositionAdjustment" horizontal="-2" vertical="0.0"/>
-                                    </tabBarItem>
-                                    <tabBarItem systemItem="more" id="BIP-w7-lm6"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98022795380000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -1792,7 +1812,7 @@ These Terms of Use and any policies or operating rules posted by us on the Appli
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EF7-q8-br5"/>
                     </view>
-                    <navigationItem key="navigationItem" id="fo4-g4-3Md"/>
+                    <navigationItem key="navigationItem" title="Title" id="hgd-2R-X6y"/>
                     <connections>
                         <outlet property="emailTextField" destination="4gn-M4-t3w" id="3jc-4u-u0Y"/>
                         <outlet property="passwordTextField" destination="16t-nx-NKD" id="E4R-BI-4tf"/>
@@ -1800,7 +1820,7 @@ These Terms of Use and any policies or operating rules posted by us on the Appli
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rYV-HR-b8f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5481" y="2005"/>
+            <point key="canvasLocation" x="-5482.5" y="2004.9295774647887"/>
         </scene>
         <!--Password Email View Controller-->
         <scene sceneID="0zi-aS-T2U">
@@ -1867,17 +1887,6 @@ These Terms of Use and any policies or operating rules posted by us on the Appli
                                 <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6mf-qp-tJJ">
-                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem image="backward.end" catalog="system" landscapeImage="backward.end" largeContentSizeImage="backward.end" selectedImage="backward.end" id="5tb-md-bt1">
-                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                                    </tabBarItem>
-                                    <tabBarItem systemItem="more" id="QTM-PB-Xuz"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98022795380000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -2137,17 +2146,6 @@ These Terms of Use and any policies or operating rules posted by us on the Appli
                                 <color key="textColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uWp-fk-grU">
-                                <rect key="frame" x="0.0" y="499" width="320" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem image="backward.end" catalog="system" landscapeImage="backward.end" largeContentSizeImage="backward.end" selectedImage="backward.end" id="9Ku-Zj-CZY">
-                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                                    </tabBarItem>
-                                    <tabBarItem systemItem="more" id="0bF-AX-6D8"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98022795380000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
@@ -2294,7 +2292,6 @@ These Terms of Use and any policies or operating rules posted by us on the Appli
         </scene>
     </scenes>
     <resources>
-        <image name="backward.end" catalog="system" width="64" height="60"/>
         <image name="heart" catalog="system" width="64" height="54"/>
         <image name="house" catalog="system" width="64" height="54"/>
         <image name="magnifyingglass" catalog="system" width="64" height="56"/>
@@ -2305,10 +2302,11 @@ These Terms of Use and any policies or operating rules posted by us on the Appli
         <image name="plus.circle.fill" catalog="system" width="64" height="60"/>
         <image name="plus.square.fill.on.square.fill" catalog="system" width="64" height="56"/>
         <image name="square.and.pencil" catalog="system" width="64" height="58"/>
+        <image name="square.grid.2x2.fill" catalog="system" width="64" height="56"/>
         <image name="star" catalog="system" width="64" height="58"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aVL-U3-7Xy"/>
+        <segue reference="cY8-gO-ScP"/>
         <segue reference="ntJ-YW-6Yv"/>
     </inferredMetricsTieBreakers>
 </document>
