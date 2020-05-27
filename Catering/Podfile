@@ -10,8 +10,22 @@ pod 'Firebase/Analytics'
 # https://firebase.google.com/docs/ios/setup#available-pods
 pod 'FirebaseUI'
 
+ #Pods for Rating Star
+ pod 'Cosmos'
 
+ pod 'IQKeyboardManagerSwift'
 
-  # Pods for Catering
+# For photo function
+pod 'DKImagePickerController'
+
+pod 'DKImagePickerController', :subspecs => ['PhotoGallery', 'Camera', 'InlineCamera']
+
 
 end
+
+
+
+
+
+  
+

@@ -26,12 +26,15 @@
 		1B45F11B24408A0100CB749B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B45F11924408A0100CB749B /* CollectionViewCell.swift */; };
 		1B45F11C24408A0100CB749B /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B45F11A24408A0100CB749B /* CollectionViewCell.xib */; };
 		1B4D02F02454B9E5001CDFCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B4D02EF2454B9E5001CDFCD /* GoogleService-Info.plist */; };
+		1B5A5147247BAC6300C98732 /* AddRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A5146247BAC6300C98732 /* AddRateViewController.swift */; };
 		1B631AE824767C88005E332A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B631AE724767C88005E332A /* SignUpViewController.swift */; };
 		1B631AEC24768210005E332A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B631AEB24768210005E332A /* SignInViewController.swift */; };
 		1BC5FA8F241106010015AFDE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC5FA8E241106010015AFDE /* SearchViewController.swift */; };
 		1BC5FA9324112B9E0015AFDE /* restaurantslistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC5FA9224112B9E0015AFDE /* restaurantslistViewController.swift */; };
+		1BD641C6247EB87D00C1021F /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD641C5247EB87D00C1021F /* UIImageExtension.swift */; };
 		1BDFA6AC240FDABA002B8B2B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFA6AA240FDABA002B8B2B /* TableViewCell.swift */; };
 		1BDFA6AD240FDABA002B8B2B /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDFA6AB240FDABA002B8B2B /* TableViewCell.xib */; };
+		1BE01B78247E8E5B00266C5E /* AddRateCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE01B77247E8E5B00266C5E /* AddRateCameraViewController.swift */; };
 		1BF9940E24779BE600C9C46D /* PasswordEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9940D24779BE600C9C46D /* PasswordEmailViewController.swift */; };
 		1BF994102477A11400C9C46D /* EmailVerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9940F2477A11400C9C46D /* EmailVerifyViewController.swift */; };
 		1BF994122477A3CE00C9C46D /* TimelineIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF994112477A3CE00C9C46D /* TimelineIntroViewController.swift */; };
@@ -60,12 +63,15 @@
 		1B45F11924408A0100CB749B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		1B45F11A24408A0100CB749B /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		1B4D02EF2454B9E5001CDFCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1B5A5146247BAC6300C98732 /* AddRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRateViewController.swift; sourceTree = "<group>"; };
 		1B631AE724767C88005E332A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = SOURCE_ROOT; };
 		1B631AEB24768210005E332A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		1BC5FA8E241106010015AFDE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		1BC5FA9224112B9E0015AFDE /* restaurantslistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantslistViewController.swift; sourceTree = "<group>"; };
+		1BD641C5247EB87D00C1021F /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		1BDFA6AA240FDABA002B8B2B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		1BDFA6AB240FDABA002B8B2B /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		1BE01B77247E8E5B00266C5E /* AddRateCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRateCameraViewController.swift; sourceTree = "<group>"; };
 		1BF9940D24779BE600C9C46D /* PasswordEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordEmailViewController.swift; sourceTree = SOURCE_ROOT; };
 		1BF9940F2477A11400C9C46D /* EmailVerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerifyViewController.swift; sourceTree = SOURCE_ROOT; };
 		1BF994112477A3CE00C9C46D /* TimelineIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineIntroViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +124,9 @@
 				1B074D20244A07BE0000E4A3 /* TimelineViewCell.xib */,
 				1B22B1C9240E8F6C00A7FEE3 /* ViewController.swift */,
 				1B22B1CB240E8F6C00A7FEE3 /* Main.storyboard */,
+				1BE01B77247E8E5B00266C5E /* AddRateCameraViewController.swift */,
+				1BD641C5247EB87D00C1021F /* UIImageExtension.swift */,
+				1B5A5146247BAC6300C98732 /* AddRateViewController.swift */,
 				1B041F9C2478F571000B7DE9 /* HomeViewController.swift */,
 				1BF994112477A3CE00C9C46D /* TimelineIntroViewController.swift */,
 				1B3386CA2476CF63000F1CAE /* WhatIsSkyAngelViewController.swift */,
@@ -169,6 +178,7 @@
 				1B22B1BF240E8F6C00A7FEE3 /* Frameworks */,
 				1B22B1C0240E8F6C00A7FEE3 /* Resources */,
 				F41E144A0580D440C0FD8CB6 /* [CP] Embed Pods Frameworks */,
+				7C53DEAEC1220C0234CC965D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +266,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7C53DEAEC1220C0234CC965D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catering/Pods-Catering-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catering/Pods-Catering-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Catering/Pods-Catering-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F41E144A0580D440C0FD8CB6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,6 +309,7 @@
 			files = (
 				1B074D21244A07BE0000E4A3 /* TimelineViewCell.swift in Sources */,
 				1B027E2024760CDD0020F3BE /* StartingPageViewCell.swift in Sources */,
+				1BD641C6247EB87D00C1021F /* UIImageExtension.swift in Sources */,
 				1BDFA6AC240FDABA002B8B2B /* TableViewCell.swift in Sources */,
 				1B3386C72476ACD2000F1CAE /* TopPageViewController.swift in Sources */,
 				1B45F11B24408A0100CB749B /* CollectionViewCell.swift in Sources */,
@@ -293,6 +321,8 @@
 				1B631AEC24768210005E332A /* SignInViewController.swift in Sources */,
 				1B631AE824767C88005E332A /* SignUpViewController.swift in Sources */,
 				1BF994122477A3CE00C9C46D /* TimelineIntroViewController.swift in Sources */,
+				1BE01B78247E8E5B00266C5E /* AddRateCameraViewController.swift in Sources */,
+				1B5A5147247BAC6300C98732 /* AddRateViewController.swift in Sources */,
 				1B3386CB2476CF63000F1CAE /* WhatIsSkyAngelViewController.swift in Sources */,
 				1BC5FA9324112B9E0015AFDE /* restaurantslistViewController.swift in Sources */,
 				1B041F9D2478F571000B7DE9 /* HomeViewController.swift in Sources */,
