@@ -65,98 +65,6 @@
             </objects>
             <point key="canvasLocation" x="-7678" y="-1541"/>
         </scene>
-        <!--Search-->
-        <scene sceneID="seA-uh-ZFa">
-            <objects>
-                <viewController id="1mO-6W-Bvh" customClass="HomeViewController" customModule="Catering" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ykf-2Y-YYJ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q2d-F6-Yft">
-                                <rect key="frame" x="16" y="20" width="288" height="528"/>
-                            </mapView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where's your next destination?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Nr-KL-D3V">
-                                <rect key="frame" x="16" y="184" width="288" height="23"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="HHG-qt-Lt3">
-                                <rect key="frame" x="16" y="222" width="288" height="56"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UC8-Rw-ujX">
-                                <rect key="frame" x="89" y="337" width="142" height="36"/>
-                                <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <color key="tintColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Find Caterer">
-                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hc8-M2-rDK">
-                                <rect key="frame" x="215" y="20" width="80" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="NtS-xi-3gv"/>
-                                    <constraint firstAttribute="height" constant="80" id="hVr-c1-oDv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" image="square.grid.2x2.fill" catalog="system">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="medium" weight="light">
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                    </preferredSymbolConfiguration>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTc-0e-FDh">
-                                <rect key="frame" x="25" y="20" width="80" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="JbR-qh-xeh"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="Xh3-S1-Ch0"/>
-                                    <constraint firstAttribute="height" constant="80" id="j9z-RS-EYd"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="lm9-Gd-IOu"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" image="backward.end" catalog="system">
-                                    <color key="titleColor" cyan="0.40059315829999997" magenta="0.96870865679999996" yellow="0.1718214897" black="0.17451435809999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="medium" weight="light">
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                    </preferredSymbolConfiguration>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.98022795380000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="Hc8-M2-rDK" secondAttribute="trailing" constant="25" id="1DO-xw-UcL"/>
-                            <constraint firstItem="8Nr-KL-D3V" firstAttribute="top" secondItem="uTc-0e-FDh" secondAttribute="bottom" constant="84" id="1IC-9h-qb9"/>
-                            <constraint firstItem="8Nr-KL-D3V" firstAttribute="top" secondItem="Hc8-M2-rDK" secondAttribute="bottom" constant="84" id="2gh-l2-loq"/>
-                            <constraint firstItem="HHG-qt-Lt3" firstAttribute="leading" secondItem="MlT-0d-KKD" secondAttribute="leading" constant="16" id="2uh-Bg-zZT"/>
-                            <constraint firstItem="Q2d-F6-Yft" firstAttribute="leading" secondItem="MlT-0d-KKD" secondAttribute="leading" constant="16" id="3dj-vF-HTx"/>
-                            <constraint firstItem="Hc8-M2-rDK" firstAttribute="top" secondItem="MlT-0d-KKD" secondAttribute="top" constant="20" id="3sc-Jj-1SM"/>
-                            <constraint firstItem="UC8-Rw-ujX" firstAttribute="top" secondItem="HHG-qt-Lt3" secondAttribute="bottom" constant="59" id="4WF-1m-4e9"/>
-                            <constraint firstItem="8Nr-KL-D3V" firstAttribute="leading" secondItem="MlT-0d-KKD" secondAttribute="leading" constant="16" id="4fT-GC-CHH"/>
-                            <constraint firstItem="uTc-0e-FDh" firstAttribute="leading" secondItem="MlT-0d-KKD" secondAttribute="leading" constant="25" id="52w-pA-AEq"/>
-                            <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="Q2d-F6-Yft" secondAttribute="trailing" constant="16" id="5Gm-He-z3m"/>
-                            <constraint firstItem="uTc-0e-FDh" firstAttribute="top" secondItem="MlT-0d-KKD" secondAttribute="top" constant="20" id="6QG-IT-3Zz"/>
-                            <constraint firstItem="HHG-qt-Lt3" firstAttribute="top" secondItem="8Nr-KL-D3V" secondAttribute="bottom" constant="15" id="9ab-23-LP8"/>
-                            <constraint firstItem="UC8-Rw-ujX" firstAttribute="leading" secondItem="MlT-0d-KKD" secondAttribute="leading" constant="89" id="EhT-PW-qFf"/>
-                            <constraint firstItem="HHG-qt-Lt3" firstAttribute="leading" secondItem="MlT-0d-KKD" secondAttribute="leading" constant="16" id="Ou1-2S-ZHp"/>
-                            <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="HHG-qt-Lt3" secondAttribute="trailing" constant="16" id="Rea-5Q-cgv"/>
-                            <constraint firstAttribute="bottom" secondItem="Q2d-F6-Yft" secondAttribute="bottom" id="Ud4-bi-xdM"/>
-                            <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="UC8-Rw-ujX" secondAttribute="trailing" constant="89" id="dot-1d-dly"/>
-                            <constraint firstItem="Q2d-F6-Yft" firstAttribute="top" secondItem="MlT-0d-KKD" secondAttribute="top" constant="20" id="eWw-Mj-N56"/>
-                            <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="8Nr-KL-D3V" secondAttribute="trailing" constant="16" id="pgR-7V-tds"/>
-                            <constraint firstItem="MlT-0d-KKD" firstAttribute="trailing" secondItem="HHG-qt-Lt3" secondAttribute="trailing" constant="16" id="xkr-fK-fhO"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="MlT-0d-KKD"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Search" image="house" catalog="system" landscapeImage="house" largeContentSizeImage="house" selectedImage="magnifyingglass" id="Z2u-Uh-Xzi"/>
-                    <navigationItem key="navigationItem" id="UA1-Km-gc1"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rZQ-xu-qqG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-6403.125" y="-484.85915492957747"/>
-        </scene>
         <!--Add Rate-->
         <scene sceneID="hx1-Da-o3e">
             <objects>
@@ -470,7 +378,6 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="1mO-6W-Bvh" kind="relationship" relationship="viewControllers" id="YLN-V9-xg8"/>
                         <segue destination="PB9-W1-Kgl" kind="relationship" relationship="viewControllers" id="x8Q-XG-hg2"/>
                         <segue destination="P9N-5l-r3z" kind="relationship" relationship="viewControllers" id="miK-Vm-MiU"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="ntJ-YW-6Yv"/>
@@ -479,6 +386,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jUc-oC-dBJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-7599" y="-113"/>
+        </scene>
+        <!--Search View Controller-->
+        <scene sceneID="nEj-jf-c9U">
+            <objects>
+                <viewController id="aBf-Tx-JBj" customClass="SearchViewController" customModule="Catering" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3fu-lG-SqF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mP0-tP-vLl">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="HWh-7d-2Lk">
+                                <rect key="frame" x="16" y="208" width="288" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="bmh-SR-fxK"/>
+                    </view>
+                    <connections>
+                        <outlet property="dispMap" destination="mP0-tP-vLl" id="laG-Lq-IY8"/>
+                        <outlet property="inputText" destination="HWh-7d-2Lk" id="qBF-0a-Q5q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CS5-72-K93" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6401.25" y="-287.32394366197184"/>
         </scene>
         <!--What Is Sky Angel View Controller-->
         <scene sceneID="DwA-nV-Uc2">
@@ -1650,13 +1588,10 @@ These Terms of Use and any policies or operating rules posted by us on the Appli
     <resources>
         <image name="backward.end" catalog="system" width="64" height="60"/>
         <image name="heart" catalog="system" width="64" height="54"/>
-        <image name="house" catalog="system" width="64" height="54"/>
-        <image name="magnifyingglass" catalog="system" width="64" height="56"/>
         <image name="magnifyingglass.circle" catalog="system" width="64" height="60"/>
         <image name="person" catalog="system" width="64" height="58"/>
         <image name="plus.circle" catalog="system" width="64" height="60"/>
         <image name="plus.circle.fill" catalog="system" width="64" height="60"/>
-        <image name="square.grid.2x2.fill" catalog="system" width="64" height="56"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="aVL-U3-7Xy"/>
