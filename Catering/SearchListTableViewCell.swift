@@ -1,14 +1,14 @@
 //
-//  TableViewCell.swift
+//  SearchListTableViewCell.swift
 //  Catering
 //
-//  Created by Miki Kuromoto on 2020/03/04.
+//  Created by Miki Kuromoto on 2020/06/16.
 //  Copyright © 2020 Sky-Angel. All rights reserved.
 //
 
 import UIKit
 
-class TableViewCell: UITableViewCell {
+class SearchListTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

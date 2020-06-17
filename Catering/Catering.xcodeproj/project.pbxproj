@@ -9,30 +9,24 @@
 /* Begin PBXBuildFile section */
 		1B027E2024760CDD0020F3BE /* StartingPageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B027E1F24760CDD0020F3BE /* StartingPageViewCell.swift */; };
 		1B0604A12477C07000596B79 /* AccountCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0604A02477C07000596B79 /* AccountCreateViewController.swift */; };
-		1B074D21244A07BE0000E4A3 /* TimelineViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B074D1F244A07BE0000E4A3 /* TimelineViewCell.swift */; };
-		1B074D22244A07BE0000E4A3 /* TimelineViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B074D20244A07BE0000E4A3 /* TimelineViewCell.xib */; };
 		1B22B1C6240E8F6C00A7FEE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B22B1C5240E8F6C00A7FEE3 /* AppDelegate.swift */; };
 		1B22B1C8240E8F6C00A7FEE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B22B1C7240E8F6C00A7FEE3 /* SceneDelegate.swift */; };
 		1B22B1CA240E8F6C00A7FEE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B22B1C9240E8F6C00A7FEE3 /* ViewController.swift */; };
 		1B22B1CD240E8F6C00A7FEE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B22B1CB240E8F6C00A7FEE3 /* Main.storyboard */; };
 		1B22B1CF240E8F6D00A7FEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B22B1CE240E8F6D00A7FEE3 /* Assets.xcassets */; };
 		1B22B1D2240E8F6D00A7FEE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B22B1D0240E8F6D00A7FEE3 /* LaunchScreen.storyboard */; };
-		1B30A4D024125729006816DC /* RestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30A4CE24125729006816DC /* RestaurantsTableViewCell.swift */; };
-		1B30A4D124125729006816DC /* RestaurantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B30A4CF24125729006816DC /* RestaurantsTableViewCell.xib */; };
 		1B3386C72476ACD2000F1CAE /* TopPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3386C62476ACD2000F1CAE /* TopPageViewController.swift */; };
 		1B3386C92476BF7E000F1CAE /* TermsAndConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3386C82476BF7E000F1CAE /* TermsAndConditionsViewController.swift */; };
 		1B3386CB2476CF63000F1CAE /* WhatIsSkyAngelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3386CA2476CF63000F1CAE /* WhatIsSkyAngelViewController.swift */; };
-		1B45F11B24408A0100CB749B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B45F11924408A0100CB749B /* CollectionViewCell.swift */; };
-		1B45F11C24408A0100CB749B /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B45F11A24408A0100CB749B /* CollectionViewCell.xib */; };
+		1B3394492498F76E0052604C /* SearchListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3394472498F76E0052604C /* SearchListTableViewCell.swift */; };
+		1B33944A2498F76E0052604C /* SearchListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B3394482498F76E0052604C /* SearchListTableViewCell.xib */; };
+		1B33944E2498FFE00052604C /* SearchIchiranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B33944D2498FFE00052604C /* SearchIchiranViewController.swift */; };
 		1B4D02F02454B9E5001CDFCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B4D02EF2454B9E5001CDFCD /* GoogleService-Info.plist */; };
 		1B5A5147247BAC6300C98732 /* AddRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A5146247BAC6300C98732 /* AddRateViewController.swift */; };
 		1B631AE824767C88005E332A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B631AE724767C88005E332A /* SignUpViewController.swift */; };
 		1B631AEC24768210005E332A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B631AEB24768210005E332A /* SignInViewController.swift */; };
 		1B96D161247ED22600353664 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96D160247ED22600353664 /* SearchViewController.swift */; };
-		1BC5FA9324112B9E0015AFDE /* restaurantslistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC5FA9224112B9E0015AFDE /* restaurantslistViewController.swift */; };
 		1BD641C6247EB87D00C1021F /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD641C5247EB87D00C1021F /* UIImageExtension.swift */; };
-		1BDFA6AC240FDABA002B8B2B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFA6AA240FDABA002B8B2B /* TableViewCell.swift */; };
-		1BDFA6AD240FDABA002B8B2B /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDFA6AB240FDABA002B8B2B /* TableViewCell.xib */; };
 		1BE01B78247E8E5B00266C5E /* AddRateCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE01B77247E8E5B00266C5E /* AddRateCameraViewController.swift */; };
 		1BF9940E24779BE600C9C46D /* PasswordEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9940D24779BE600C9C46D /* PasswordEmailViewController.swift */; };
 		1BF994102477A11400C9C46D /* EmailVerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9940F2477A11400C9C46D /* EmailVerifyViewController.swift */; };
@@ -43,8 +37,6 @@
 /* Begin PBXFileReference section */
 		1B027E1F24760CDD0020F3BE /* StartingPageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingPageViewCell.swift; sourceTree = "<group>"; };
 		1B0604A02477C07000596B79 /* AccountCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreateViewController.swift; sourceTree = SOURCE_ROOT; };
-		1B074D1F244A07BE0000E4A3 /* TimelineViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewCell.swift; sourceTree = "<group>"; };
-		1B074D20244A07BE0000E4A3 /* TimelineViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimelineViewCell.xib; sourceTree = "<group>"; };
 		1B22B1C2240E8F6C00A7FEE3 /* Catering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B22B1C5240E8F6C00A7FEE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B22B1C7240E8F6C00A7FEE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,22 +45,18 @@
 		1B22B1CE240E8F6D00A7FEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B22B1D1240E8F6D00A7FEE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B22B1D3240E8F6D00A7FEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B30A4CE24125729006816DC /* RestaurantsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsTableViewCell.swift; sourceTree = "<group>"; };
-		1B30A4CF24125729006816DC /* RestaurantsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantsTableViewCell.xib; sourceTree = "<group>"; };
 		1B3386C62476ACD2000F1CAE /* TopPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPageViewController.swift; sourceTree = "<group>"; };
 		1B3386C82476BF7E000F1CAE /* TermsAndConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsViewController.swift; sourceTree = "<group>"; };
 		1B3386CA2476CF63000F1CAE /* WhatIsSkyAngelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsSkyAngelViewController.swift; sourceTree = "<group>"; };
-		1B45F11924408A0100CB749B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		1B45F11A24408A0100CB749B /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		1B3394472498F76E0052604C /* SearchListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		1B3394482498F76E0052604C /* SearchListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchListTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		1B33944D2498FFE00052604C /* SearchIchiranViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchIchiranViewController.swift; sourceTree = SOURCE_ROOT; };
 		1B4D02EF2454B9E5001CDFCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1B5A5146247BAC6300C98732 /* AddRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRateViewController.swift; sourceTree = "<group>"; };
 		1B631AE724767C88005E332A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = SOURCE_ROOT; };
 		1B631AEB24768210005E332A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		1B96D160247ED22600353664 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = SOURCE_ROOT; };
-		1BC5FA9224112B9E0015AFDE /* restaurantslistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantslistViewController.swift; sourceTree = "<group>"; };
 		1BD641C5247EB87D00C1021F /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
-		1BDFA6AA240FDABA002B8B2B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		1BDFA6AB240FDABA002B8B2B /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		1BE01B77247E8E5B00266C5E /* AddRateCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRateCameraViewController.swift; sourceTree = "<group>"; };
 		1BF9940D24779BE600C9C46D /* PasswordEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordEmailViewController.swift; sourceTree = SOURCE_ROOT; };
 		1BF9940F2477A11400C9C46D /* EmailVerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerifyViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -111,6 +99,9 @@
 		1B22B1C4240E8F6C00A7FEE3 /* Catering */ = {
 			isa = PBXGroup;
 			children = (
+				1B33944D2498FFE00052604C /* SearchIchiranViewController.swift */,
+				1B3394472498F76E0052604C /* SearchListTableViewCell.swift */,
+				1B3394482498F76E0052604C /* SearchListTableViewCell.xib */,
 				1B96D160247ED22600353664 /* SearchViewController.swift */,
 				1B0604A02477C07000596B79 /* AccountCreateViewController.swift */,
 				1BF9940F2477A11400C9C46D /* EmailVerifyViewController.swift */,
@@ -118,9 +109,7 @@
 				1B631AE724767C88005E332A /* SignUpViewController.swift */,
 				1B22B1C5240E8F6C00A7FEE3 /* AppDelegate.swift */,
 				1B22B1C7240E8F6C00A7FEE3 /* SceneDelegate.swift */,
-				1B074D1F244A07BE0000E4A3 /* TimelineViewCell.swift */,
 				1B4D02EF2454B9E5001CDFCD /* GoogleService-Info.plist */,
-				1B074D20244A07BE0000E4A3 /* TimelineViewCell.xib */,
 				1B22B1C9240E8F6C00A7FEE3 /* ViewController.swift */,
 				1B22B1CB240E8F6C00A7FEE3 /* Main.storyboard */,
 				1BE01B77247E8E5B00266C5E /* AddRateCameraViewController.swift */,
@@ -135,13 +124,6 @@
 				1B22B1CE240E8F6D00A7FEE3 /* Assets.xcassets */,
 				1B22B1D0240E8F6D00A7FEE3 /* LaunchScreen.storyboard */,
 				1B22B1D3240E8F6D00A7FEE3 /* Info.plist */,
-				1BDFA6AA240FDABA002B8B2B /* TableViewCell.swift */,
-				1BDFA6AB240FDABA002B8B2B /* TableViewCell.xib */,
-				1BC5FA9224112B9E0015AFDE /* restaurantslistViewController.swift */,
-				1B30A4CE24125729006816DC /* RestaurantsTableViewCell.swift */,
-				1B30A4CF24125729006816DC /* RestaurantsTableViewCell.xib */,
-				1B45F11924408A0100CB749B /* CollectionViewCell.swift */,
-				1B45F11A24408A0100CB749B /* CollectionViewCell.xib */,
 			);
 			path = Catering;
 			sourceTree = "<group>";
@@ -227,13 +209,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B33944A2498F76E0052604C /* SearchListTableViewCell.xib in Resources */,
 				1B22B1D2240E8F6D00A7FEE3 /* LaunchScreen.storyboard in Resources */,
 				1B4D02F02454B9E5001CDFCD /* GoogleService-Info.plist in Resources */,
-				1BDFA6AD240FDABA002B8B2B /* TableViewCell.xib in Resources */,
-				1B45F11C24408A0100CB749B /* CollectionViewCell.xib in Resources */,
-				1B30A4D124125729006816DC /* RestaurantsTableViewCell.xib in Resources */,
 				1B22B1CF240E8F6D00A7FEE3 /* Assets.xcassets in Resources */,
-				1B074D22244A07BE0000E4A3 /* TimelineViewCell.xib in Resources */,
 				1B22B1CD240E8F6C00A7FEE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,15 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B074D21244A07BE0000E4A3 /* TimelineViewCell.swift in Sources */,
 				1B027E2024760CDD0020F3BE /* StartingPageViewCell.swift in Sources */,
 				1BD641C6247EB87D00C1021F /* UIImageExtension.swift in Sources */,
-				1BDFA6AC240FDABA002B8B2B /* TableViewCell.swift in Sources */,
 				1B3386C72476ACD2000F1CAE /* TopPageViewController.swift in Sources */,
-				1B45F11B24408A0100CB749B /* CollectionViewCell.swift in Sources */,
 				1BF9940E24779BE600C9C46D /* PasswordEmailViewController.swift in Sources */,
+				1B33944E2498FFE00052604C /* SearchIchiranViewController.swift in Sources */,
 				1BF994102477A11400C9C46D /* EmailVerifyViewController.swift in Sources */,
-				1B30A4D024125729006816DC /* RestaurantsTableViewCell.swift in Sources */,
+				1B3394492498F76E0052604C /* SearchListTableViewCell.swift in Sources */,
 				1B22B1CA240E8F6C00A7FEE3 /* ViewController.swift in Sources */,
 				1B631AEC24768210005E332A /* SignInViewController.swift in Sources */,
 				1B631AE824767C88005E332A /* SignUpViewController.swift in Sources */,
@@ -321,7 +298,6 @@
 				1BE01B78247E8E5B00266C5E /* AddRateCameraViewController.swift in Sources */,
 				1B5A5147247BAC6300C98732 /* AddRateViewController.swift in Sources */,
 				1B3386CB2476CF63000F1CAE /* WhatIsSkyAngelViewController.swift in Sources */,
-				1BC5FA9324112B9E0015AFDE /* restaurantslistViewController.swift in Sources */,
 				1B3386C92476BF7E000F1CAE /* TermsAndConditionsViewController.swift in Sources */,
 				1B0604A12477C07000596B79 /* AccountCreateViewController.swift in Sources */,
 				1B22B1C6240E8F6C00A7FEE3 /* AppDelegate.swift in Sources */,
